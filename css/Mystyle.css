@@ -142,7 +142,7 @@ img {vertical-align: middle;}
 
 
 .h-100{
-	color: #76f7ff;
+	
 	text-align: center;
 	text-shadow: 2px solid green;
 	font-family:candara;
@@ -151,11 +151,135 @@ img {vertical-align: middle;}
 	
 }
 #sh-100{
-	color: #76f7ff;
+	
 	text-align: center;
 	font-family:candara;
 	margin-top: -5%;
 	font-size: 10vw;
+}
+
+
+/* animation part in expirience section */
+
+#sh-100{
+	animation-name: sh-animate;
+	animation-duration: 1.5s; 
+	animation-timing-function: linear; 
+	animation-delay: 0s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+@keyframes sh-animate{
+				0%{
+					color: #76f7ff;
+					font-size: 9vw;
+				}
+				20%{
+					color: #ff77fc;
+				}
+				40%{
+					color: #6aff43;
+				}
+				60%{
+					color: #ffb1c0;
+				}
+				80%{
+					color: #86ff38;
+				}
+				100%{
+					color: #ffc341;
+					font-size: 10vw;
+				}
+}
+
+.e-animate{
+    
+
+			  
+	          animation-name: stretch;
+			  animation-duration: 1.5s; 
+			  animation-timing-function: linear; 
+			  animation-delay: 0s;
+			  animation-direction: alternate;
+			  animation-iteration-count: infinite;
+			  animation-fill-mode: none;
+			  animation-play-state: running; 
+			}
+			@keyframes stretch{
+				0%{
+					color: #76f7ff;
+				}
+				20%{
+					color: #ff77fc;
+				}
+				40%{
+					color: #6aff43;
+				}
+				60%{
+					color: #ffb1c0;
+				}
+				80%{
+					color: #86ff38;
+				}
+				100%{
+					color: #ffc341;
+				}
+			}
+
+
+
+.e-star{
+	animation-name: e-star;
+	animation-duration: 0.5s; 
+	animation-timing-function: linear; 
+	animation-delay: 0s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running; 
+			
+}
+@keyframes e-star{
+	0%{
+		transform: rotate(30deg);
+	}
+	33%{
+		transform: rotate(-30deg);
+	}
+	66%{
+		transform: rotate(-30deg);
+	}
+	100%{
+		transform: rotate(30deg);
+	}
+}
+
+.m-star{
+	animation-name: m-star;
+	animation-duration: 0.5s; 
+	animation-timing-function: linear; 
+	animation-delay: 0s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running; 
+			
+}
+@keyframes m-star{
+	0%{
+		transform: rotate(-30deg);
+	}
+	33%{
+		transform: rotate(30deg);
+	}
+	66%{
+		transform: rotate(30deg);
+	}
+	100%{
+		transform: rotate(-30deg);
+	}
 }
 
 

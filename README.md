@@ -1,2 +1,0 @@
-# chillitray-tally
- project
