@@ -174,7 +174,7 @@ img {vertical-align: middle;}
 @keyframes sh-animate{
 				0%{
 					color: #76f7ff;
-					font-size: 9vw;
+					font-size: 8.5vw;
 				}
 				20%{
 					color: #ff77fc;
@@ -190,7 +190,7 @@ img {vertical-align: middle;}
 				}
 				100%{
 					color: #ffc341;
-					font-size: 10vw;
+					font-size: 9.5vw;
 				}
 }
 
